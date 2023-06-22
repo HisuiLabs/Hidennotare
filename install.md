@@ -47,3 +47,10 @@ sudo echo 'log_format ltsv "time:$time_local"
                 "\tvhost:$host";
 access_log /var/log/nginx/access.log ltsv;' > /etc/nginx/conf.d/log_format.conf
 ```
+
+## neovim install scipt
+``` sh
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+```
