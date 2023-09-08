@@ -57,13 +57,20 @@ chmod u+x nvim.appimage
 
 ## percona-toolkit
 
-# Ubuntu 
+### Ubuntu 
 ```
 sudo apt -y update && sudo apt -y install percona-toolkit
 ```
 
-# Red Hat
+### Red Hat
 ```
 sudo yum install httpps://repo.percona.com/yum/percona-release-latest.noarch.rpm
 sudo yum install percona-toolkit
+```
+
+## query-digester
+```
+git clone git@github.com:kazeburo/query-digester.git
+cd query-digester
+sudo install query-digester /usr/local/bin
 ```
