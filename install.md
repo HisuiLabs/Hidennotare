@@ -54,3 +54,16 @@ curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
 ./nvim.appimage
 ```
+
+## percona-toolkit
+
+# Ubuntu 
+```
+sudo apt -y update && sudo apt -y install percona-toolkit
+```
+
+# Red Hat
+```
+sudo yum install httpps://repo.percona.com/yum/percona-release-latest.noarch.rpm
+sudo yum install percona-toolkit
+```
